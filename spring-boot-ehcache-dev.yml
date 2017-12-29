@@ -4,7 +4,7 @@ eureka:
     instanceId: ${spring.application.name}:${server.port}
   client:
     serviceUrl:
-      defaultZone: http://localhost:1111/eureka/  #×¢²áÖĞĞÄµØÖ·
+      defaultZone: http://localhost:1111/eureka/ #æœåŠ¡æ³¨å†Œä¸­å¿ƒåœ°å€
 druid:
   jdbc:
     driveClassName: com.mysql.jdbc.Driver
