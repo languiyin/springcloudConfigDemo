@@ -24,3 +24,5 @@ druid:
     filters: stat,wall
 mybatis:
   mapperLocations: classpath:mapper/*.xml
+server:
+  port: 8585
