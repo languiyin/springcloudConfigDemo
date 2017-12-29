@@ -1,19 +1,10 @@
-server:
-  port: 8585
-spring:
-  application:
-    name: spring-boot-ehcache
-  cloud:
-    config:
-      profile: dev
-      uri: http://10.3.99.25:8888
-#druid:
-#  boot:
-#    admin:
-#      url:  http://localhost:7002/
-#  zipkin:
-#    base-url: http://192.168.13.51:9411/
-
+eureka:
+  instance:
+    preferIpAddress: true
+    instanceId: ${spring.application.name}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/  #×¢²áÖÐÐÄµØÖ·
 druid:
   jdbc:
     driveClassName: com.mysql.jdbc.Driver
