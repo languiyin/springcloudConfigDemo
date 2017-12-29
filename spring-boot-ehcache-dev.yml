@@ -22,3 +22,8 @@ druid:
     testOnBrowwon: false
     testOnReturn: false
     filters: stat,wall
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  type-aliases-package: com.huntkey.rx.ehcache.common.model
+  configLocation: classpath:mybatis-config.xml
+debug: true
