@@ -22,3 +22,5 @@ druid:
     testOnBrowwon: false
     testOnReturn: false
     filters: stat,wall
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
