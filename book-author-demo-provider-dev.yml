@@ -40,6 +40,3 @@ redisNodes: 10.3.98.153:7000,10.3.98.153:7001,10.3.98.154:7002,10.3.98.154:7003,
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
-  type-aliases-package: cn.edu.hfut.xc.bookauthordemo.common.model
-  configLocation: classpath:mybatis-config.xml
-debug: true
